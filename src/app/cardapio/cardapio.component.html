@@ -1,0 +1,25 @@
+<table class='table'>
+  <thead>
+    <tr>
+      <th>Lanche</th>
+      <th>Ingredientes</th>
+    </tr>
+  </thead>
+  <tbody id="cardapio">
+    <tr *ngFor="let item of itens">
+      <td>{{ item.titulo }}</td>
+      <td>{{ item.descricao }}</td>
+    </tr>
+  </tbody>
+  <hr>
+  <tr>
+    <th>Ingredientes</th>
+    <th>Preço por ingrediente</th>
+  </tr>
+  <tbody id="ingredientes" *ngFor="let item of itens">
+    <tr>
+      <td>{{ item.titulo }}</td>
+      <td>{{ item.descricao }}</td>
+    </tr>
+  </tbody>
+</table>

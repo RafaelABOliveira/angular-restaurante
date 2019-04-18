@@ -1,0 +1,67 @@
+{ 
+	"item": [
+		{
+			"id": 1,
+			"categoria": "lanche",
+            "titulo": "Super Burger",
+            "descricao": "a",
+            "valor": 29.90
+		},
+		{
+			"id": 2,
+			"categoria": "lanche",
+            "titulo": "Cozinha Mexicana",
+            "descricao": "a",
+			"valor": 32.90
+		},
+		{
+			"id": 3,
+			"categoria": "lanche",
+            "titulo": "Pizzas Grandes",
+            "descricao": "a",
+			"valor": 21.90
+		},
+		{
+			"id": 4,
+			"categoria": "lanche",
+            "titulo": "Estância das águas",
+            "descricao": "a",
+			"valor": 31.90
+		},
+		{
+			"id": 5,
+			"categoria": "diversao",
+            "titulo": "Kart",
+            "descricao": "a",
+			"valor": 54.90
+		},
+		{
+			"id": 6,
+			"categoria": "diversao",
+            "titulo": "Academia de tiro",
+            "descricao": "a",
+			"valor": 89.90
+        },
+        {
+			"id": 7,
+			"categoria": "diversao",
+            "titulo": "Kart",
+            "descricao": "a",
+			"valor": 54.90
+        },
+        {
+			"id": 8,
+			"categoria": "diversao",
+            "titulo": "Kart",
+            "descricao": "a",
+			"valor": 54.90
+        },
+        {
+			"id": 9,
+			"categoria": "diversao",
+            "titulo": "Kart",
+            "descricao": "a",
+			"valor": 54.90
+		}
+	]
+}
