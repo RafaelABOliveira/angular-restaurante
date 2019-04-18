@@ -1,6 +1,7 @@
 # AngularSpa
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
+Use 'npm install' to install node_modules
 
 ## Development server
 
