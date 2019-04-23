@@ -3,65 +3,56 @@
 		{
 			"id": 1,
 			"categoria": "lanche",
-            "titulo": "Super Burger",
-            "descricao": "a",
-            "valor": 29.90
+            "titulo": "X-Bacon",
+            "descricao": "Bacon, hambúrguer de carne e queijo",
 		},
 		{
 			"id": 2,
 			"categoria": "lanche",
-            "titulo": "Cozinha Mexicana",
-            "descricao": "a",
-			"valor": 32.90
+            "titulo": "X-Burger",
+            "descricao": "Hambúrguer de carne e queijo",
 		},
 		{
 			"id": 3,
 			"categoria": "lanche",
-            "titulo": "Pizzas Grandes",
-            "descricao": "a",
-			"valor": 21.90
+            "titulo": "X-Egg",
+            "descricao": "Ovo, hambúrguer de carne e queijo",
 		},
 		{
 			"id": 4,
 			"categoria": "lanche",
-            "titulo": "Estância das águas",
-            "descricao": "a",
-			"valor": 31.90
+            "titulo": "X-Egg-Bacon",
+            "descricao": "Ovo, bacon, hambúrguer de carne e queijo",
 		},
 		{
 			"id": 5,
-			"categoria": "diversao",
-            "titulo": "Kart",
-            "descricao": "a",
-			"valor": 54.90
+			"categoria": "ingrediente",
+            "titulo": "Alface",
+			"valor": 0.40
 		},
 		{
 			"id": 6,
-			"categoria": "diversao",
-            "titulo": "Academia de tiro",
-            "descricao": "a",
-			"valor": 89.90
+			"categoria": "ingrediente",
+            "titulo": "Bacon",
+			"valor": 2.00
         },
         {
 			"id": 7,
-			"categoria": "diversao",
-            "titulo": "Kart",
-            "descricao": "a",
-			"valor": 54.90
+			"categoria": "ingrediente",
+            "titulo": "Hambúrguer de Carne",
+			"valor": 3.00
         },
         {
 			"id": 8,
-			"categoria": "diversao",
-            "titulo": "Kart",
-            "descricao": "a",
-			"valor": 54.90
+			"categoria": "ingrediente",
+            "titulo": "Ovo",
+			"valor": 0.80
         },
         {
 			"id": 9,
-			"categoria": "diversao",
-            "titulo": "Kart",
-            "descricao": "a",
-			"valor": 54.90
+			"categoria": "ingrediente",
+            "titulo": "Queijo",
+			"valor": 1.50
 		}
 ]
 }
