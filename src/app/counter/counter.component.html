@@ -2,7 +2,41 @@
 
 <p>Make your order here.</p>
 
-<p>Carne: <strong>{{ currentCount }}</strong>
-    <button (click)="incrementCarne()">add</button>
-    <button (click)="removeCarne()">remove</button>
-</p>
+<label for="oper">Selecione o lanche:</label>
+<select name="oper" id="selectBurguer">
+  <option value="1">Montar meu lanche</option>
+  <option value="2">X-Bacon</option>
+  <option value="3">X-Burger</option>
+  <option value="4">X-Egg</option>
+  <option value="5">X-Egg Bacon</option>
+</select>
+
+<div>
+  <p>Alface: <strong>{{ currentAlface }}</strong>
+    <button class="btn btn-success" (click)="incrementAlface()">add</button>
+    <button class="btn btn-danger" (click)="decrementAlface()">remove</button>
+  </p>
+  <p>Bacon: <strong>{{ currentBacon }}</strong>
+    <button class="btn btn-success" (click)="incrementBacon()">add</button>
+    <button class="btn btn-danger" (click)="decrementBacon()">remove</button>
+  </p>
+  <p>Hamburguer de carne: <strong>{{ currentHamburguerCarne }}</strong>
+    <button class="btn btn-success" (click)="incrementHamburguerCarne()">add</button>
+    <button class="btn btn-danger" (click)="decrementHamburguerCarne()">remove</button>
+  </p>
+  <p>Ovo: <strong>{{ currentOvo }}</strong>
+    <button class="btn btn-success" (click)="incrementOvo()">add</button>
+    <button class="btn btn-danger" (click)="decrementOvo()">remove</button>
+  </p>
+  <p>Queijo: <strong>{{ currentQueijo }}</strong>
+    <button class="btn btn-success" (click)="incrementQueijo()">add</button>
+    <button class="btn btn-danger" (click)="decrementQueijo()">remove</button>
+  </p>
+</div>
+
+
+<div>
+   <h1>R$<span id="totalValue"></span></h1>
+</div>
+
+<button class="btn btn-primary">Fazer Pedido</button>

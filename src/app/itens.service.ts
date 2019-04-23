@@ -12,14 +12,14 @@ export class ItensService {
     constructor(private http: HttpClient){}
     
     public getItens(): Promise<Itens[]> {
-        return this.http.get(`http://localhost:3000/item?categoria==lanche`)
+        return this.http.get(`http://localhost:3000/item?categoria=lanche`)
             .toPromise()
-            .then()
+            .then((resposta: any) => resposta.json())
     }
 
     public getDescricaoIten(descricao: string) : Promise<Itens[]> {
         return this.http.get(`http://localhost:3000/item?descricao=${descricao}`)
             .toPromise()
-            .then();
+            .then((resposta: any) => resposta.json());
         }
     }
