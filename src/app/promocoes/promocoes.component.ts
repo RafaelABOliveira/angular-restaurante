@@ -11,7 +11,7 @@ export class PromocoesComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    var promocoes = $("#promocoes");
+    var promocoes = $("#promocoes"); //Para o código HTML ficar mais "limpo"
     var prom = $("tr");
 
     $(document).ready(function () {

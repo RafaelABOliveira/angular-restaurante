@@ -1,25 +1,27 @@
 import { Component, OnInit } from '@angular/core/';
-import { ItensService } from '../itens.service'
 import { Itens } from '../shared/itens.model'
+import { CardapioService } from './cardapio.service';
 
 @Component({
   selector: 'app-cardapio',
   templateUrl: './cardapio.component.html',
   styleUrls: ['./cardapio.component.css'],
-  providers: [ ItensService ]
 })
 export class CardapioComponent implements OnInit {
 
-  public itens: Itens[] 
+  hamburguers: Itens[];
+  ingredientes: Itens[];
 
-  constructor(private itensService: ItensService){}
+  constructor(private service: CardapioService){ }
 
   ngOnInit() {
 
-    this.itensService.getItens()
-    .then(( itens: Itens[] ) => { 
-      this.itens = itens 
-    })
+    this.service.listBurguers()
+    .subscribe(data => this.hamburguers = data);
+
+    this.service.listIngredients()
+    .subscribe(data => this.ingredientes = data);
+
 
 
     // MÉTODO SEM REQUISIÇÃO HTTP

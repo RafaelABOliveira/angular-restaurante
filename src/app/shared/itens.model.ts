@@ -1,7 +1,7 @@
-export class Itens {
-    public id: number
-    public categoria: string
-    public titulo: string
-    public valor: number
-    public descricao: string
+export interface Itens {
+    id: number;
+    categoria: string;
+    titulo: string;
+    valor: number;
+    descricao: string;
 }

@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { CardapioComponent } from './cardapio/cardapio.component';
 import { PromocoesComponent } from './promocoes/promocoes.component';
+import { CardapioService } from './cardapio/cardapio.service'
 
 @NgModule({
   declarations: [
@@ -31,7 +32,9 @@ import { PromocoesComponent } from './promocoes/promocoes.component';
       { path: 'promocoes', component: PromocoesComponent}
     ])
   ],
-  providers: [],
+  providers: [
+    CardapioService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

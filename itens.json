@@ -1,28 +1,28 @@
 { 
- "item" : [
+ "itens" : [
 		{
 			"id": 1,
 			"categoria": "lanche",
             "titulo": "X-Bacon",
-            "descricao": "Bacon, hambúrguer de carne e queijo",
+            "descricao": "Bacon, hambúrguer de carne e queijo"
 		},
 		{
 			"id": 2,
 			"categoria": "lanche",
             "titulo": "X-Burger",
-            "descricao": "Hambúrguer de carne e queijo",
+            "descricao": "Hambúrguer de carne e queijo"
 		},
 		{
 			"id": 3,
 			"categoria": "lanche",
             "titulo": "X-Egg",
-            "descricao": "Ovo, hambúrguer de carne e queijo",
+            "descricao": "Ovo, hambúrguer de carne e queijo"
 		},
 		{
 			"id": 4,
 			"categoria": "lanche",
             "titulo": "X-Egg-Bacon",
-            "descricao": "Ovo, bacon, hambúrguer de carne e queijo",
+            "descricao": "Ovo, bacon, hambúrguer de carne e queijo"
 		},
 		{
 			"id": 5,
