@@ -19,8 +19,18 @@ li.link-active a:focus {
     z-index: 1;
 }
 
-.navbar-inverse{
-    background-image: url("../../assets/burguer.jpg");
+@media (min-width: 768px){
+    .navbar-inverse{
+        background-image: url("../../assets/burguer.jpg");
+        background-size: 100% 700px;
+    }
+}
+
+@media (max-width: 768px){
+    .navbar-inverse{
+        background-image: url("../../assets/happy_burguer.jpg");
+        background-size: 300px 200px;
+    }
 }
 
 @media (min-width: 768px) {
