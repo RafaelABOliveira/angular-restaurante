@@ -52,7 +52,7 @@ export class CounterComponent implements OnInit {
 
   public incrementHamburguerCarne(){
     this.currentHamburguerCarne++;
-    if(this.currentHamburguerCarne == 4){
+    if(this.currentHamburguerCarne == 6){
       $("#btnAddHamburguerCarne").attr("disabled", true)
     }
   }
@@ -78,7 +78,7 @@ export class CounterComponent implements OnInit {
 
   public incrementQueijo(){
     this.currentQueijo++;
-    if(this.currentQueijo == 4){
+    if(this.currentQueijo == 6){
       $("#btnAddQueijo").attr("disabled", true)
     }
   }
@@ -89,6 +89,13 @@ export class CounterComponent implements OnInit {
     }
   }
 
+  calcValor(){
+    return ((this.currentAlface * 0.4) + (this.currentHamburguerCarne * 3) + (this.currentBacon * 2) + (this.currentOvo * 0.8) + (this.currentQueijo * 1.5)).toFixed(2)
+  }
+
+  calcPromocao(){
+
+  }
 
   ngOnInit(){
 
