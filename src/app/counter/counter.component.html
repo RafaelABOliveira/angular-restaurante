@@ -17,34 +17,36 @@
   <p></p>
   <hr>
   <form id="lancheForm">
-    <p>Alface: <strong id="qtdAlface">{{ currentAlface }}</strong>
-      <button class="btn btn-success" id="btnAddAlface" (click)="incrementAlface()">add</button>
-      <button class="btn btn-danger" id="btnDelAlface" (click)="decrementAlface()">remove</button>
-    </p>
-    <p>Bacon: <strong>{{ currentBacon }}</strong>
-      <button class="btn btn-success" id="btnAddBacon" (click)="incrementBacon()">add</button>
-      <button class="btn btn-danger" id="btnDelBacon" (click)="decrementBacon()">remove</button>
-    </p>
-    <p>Hamburguer de carne: <strong>{{ currentHamburguerCarne }}</strong>
-      <button class="btn btn-success" id="btnAddHamburguerCarne" (click)="incrementHamburguerCarne()">add</button>
-      <button class="btn btn-danger" id="btnDelHamburguerCarne" (click)="decrementHamburguerCarne()">remove</button>
-    </p>
-    <p>Ovo: <strong>{{ currentOvo }}</strong>
-      <button class="btn btn-success" id="btnAddOvo" (click)="incrementOvo()">add</button>
-      <button class="btn btn-danger" id="btnDelOvo" (click)="decrementOvo()">remove</button>
-    </p>
-    <p>Queijo: <strong>{{ currentQueijo }}</strong>
-      <button class="btn btn-success" id="btnAddQueijo" (click)="incrementQueijo()">add</button>
-      <button class="btn btn-danger" id="btnDelQueijo" (click)="decrementQueijo()">remove</button>
-    </p>
+    <div id="opcoes">
+      <p>Alface: <strong id="qtdAlface">{{ currentAlface }}</strong>
+        <button class="btn btn-success" id="btnAddAlface" (click)="incrementAlface()">Adicionar</button>
+        <button class="btn btn-danger" id="btnDelAlface" (click)="decrementAlface()">Remover</button>
+      </p>
+      <p>Bacon: <strong>{{ currentBacon }}</strong>
+        <button class="btn btn-success" id="btnAddBacon" (click)="incrementBacon()">Adicionar</button>
+        <button class="btn btn-danger" id="btnDelBacon" (click)="decrementBacon()">Remover</button>
+      </p>
+      <p>Hamburguer de carne: <strong>{{ currentHamburguerCarne }}</strong>
+        <button class="btn btn-success" id="btnAddHamburguerCarne"
+          (click)="incrementHamburguerCarne()">Adicionar</button>
+        <button class="btn btn-danger" id="btnDelHamburguerCarne" (click)="decrementHamburguerCarne()">Remover</button>
+      </p>
+      <p>Ovo: <strong>{{ currentOvo }}</strong>
+        <button class="btn btn-success" id="btnAddOvo" (click)="incrementOvo()">Adicionar</button>
+        <button class="btn btn-danger" id="btnDelOvo" (click)="decrementOvo()">Remover</button>
+      </p>
+      <p>Queijo: <strong>{{ currentQueijo }}</strong>
+        <button class="btn btn-success" id="btnAddQueijo" (click)="incrementQueijo()">Adicionar</button>
+        <button class="btn btn-danger" id="btnDelQueijo" (click)="decrementQueijo()">Remover</button>
+      </p>
+    </div>
 
   </form>
 </div>
 
 <hr>
 <div>
-  <h1>Valor: R$<span
-      id="totalValue">{{ calcValor() }}</span>
+  <h1>Valor: R$<span id="totalValue">{{ calcValor() }}</span>
   </h1>
 </div>
 

@@ -10,7 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { CardapioComponent } from './cardapio/cardapio.component';
 import { PromocoesComponent } from './promocoes/promocoes.component';
-import { CardapioService } from './cardapio/cardapio.service'
+import { CardapioService } from './cardapio/cardapio.service';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { CardapioService } from './cardapio/cardapio.service'
     HomeComponent,
     CounterComponent,
     CardapioComponent,
-    PromocoesComponent
+    PromocoesComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

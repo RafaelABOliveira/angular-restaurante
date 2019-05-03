@@ -1,9 +1,11 @@
 import { Component, OnInit, EventEmitter, Output, OnDestroy } from '@angular/core';
+import {MatButtonModule} from '@angular/material/button';
 import * as $ from 'jquery';
 
 @Component({
-  selector: 'app-counter-component',
-  templateUrl: './counter.component.html'
+  selector: 'app-counter-component', 
+  templateUrl: './counter.component.html',
+  styleUrls: ['./counter.component.css']
 })
 
 export class CounterComponent implements OnInit {
@@ -89,12 +91,16 @@ export class CounterComponent implements OnInit {
     }
   }
 
+
   calcValor(){
-    return ((this.currentAlface * 0.4) + (this.currentHamburguerCarne * 3) + (this.currentBacon * 2) + (this.currentOvo * 0.8) + (this.currentQueijo * 1.5)).toFixed(2)
+    var valor = ((this.currentAlface * 0.4) + (this.currentHamburguerCarne * 3) + (this.currentBacon * 2) + (this.currentOvo * 0.8) + (this.currentQueijo * 1.5)).toFixed(2);
+    return valor
   }
 
-  calcPromocao(){
-
+  calcPromoAlface(){
+    if(this.currentAlface >= 1 && this.currentBacon == 0){
+      
+    }
   }
 
   ngOnInit(){
