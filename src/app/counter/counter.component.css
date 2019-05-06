@@ -1,3 +1,17 @@
 div#opcoes{
-    max-width: 600px;
+    max-width: 350px;
+}
+
+.btn-success {
+    float: right;
+    position: relative;
+}
+
+.btn-danger {
+    float: right;
+    margin-left: 3px;
+}
+
+p.ingrediente {
+    margin-bottom: 20px;
 }

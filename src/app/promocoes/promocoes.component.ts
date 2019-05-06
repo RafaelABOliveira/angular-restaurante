@@ -27,10 +27,6 @@ export class PromocoesComponent implements OnInit {
         {
           "Promocao": "Muito queijo",
           "Cond": "A cada 3 porções de queijo o cliente só paga 2. Se o lanche tiver 6 porções, ocliente pagará 4. Assim por diante..."
-        },
-        {
-          "Promocao": "Inflação",
-          "Cond": "Os valores dos ingredientes são alterados com frequência e não gostaríamos que isso influenciasse nos testes automatizados."
         }
       ];
       $(prom).each(function (i) {
